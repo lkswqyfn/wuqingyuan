@@ -12,3 +12,6 @@ AndroidRuntime(xxxx): Shutting down VM
 
 调试gradle
 ./gradlew :app:assembleDebug -Dorg.gradle.daemon=false -Dorg.gradle.debug=true
+
+dump内存
+adb shell am dumpheap com.lizhi.pplive
