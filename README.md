@@ -11,6 +11,9 @@ AndroidRuntime(xxxx): Shutting down VM
 线程的状态是native则表示当前正在执行jni,
 
 调试gradle
+创建配置
+![Uploading image.png…]()
+
 ./gradlew :app:assembleDebug -Dorg.gradle.daemon=false -Dorg.gradle.debug=true
 
 dump内存
