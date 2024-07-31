@@ -12,7 +12,7 @@ AndroidRuntime(xxxx): Shutting down VM
 
 调试gradle
 创建配置
-![Uploading image.png…]()
+![screenshot-20240731-102415.png]()
 
 ./gradlew :app:assembleDebug -Dorg.gradle.daemon=false -Dorg.gradle.debug=true
 
