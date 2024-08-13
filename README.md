@@ -19,6 +19,8 @@ AndroidRuntime(xxxx): Shutting down VM
 dump内存
 adb shell am dumpheap com.lizhi.pplive
 
+https://cs.android.com/android/platform/superproject/+/android-8.1.0_r9:frameworks/base/core/java/android/view/View.java
+
 ./record_android_trace -o trace_file.perfetto-trace -t 30s -b 64mb -a com.lizhi.pplive \
 sched freq idle am wm gfx view binder_driver hal dalvik camera input res memory
 这份帮助文档的操作说明翻译如下：
