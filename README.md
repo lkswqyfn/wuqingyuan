@@ -52,3 +52,10 @@ sched freq idle am wm gfx view binder_driver hal dalvik camera input res memory
 
 长时间追踪：
 如果要记录几小时的追踪并将其流式传输到文件中，需要传递完整的追踪配置并设置 `write_into_file = true`。请参见 [Perfetto 文档](https://perfetto.dev/docs/concepts/config#long-traces) 。
+
+系统10及以上使用下面UI-Trace
+adb shell perfetto -o /data/misc/perfetto-traces/trace.perfetto-trace \
+    -t 10s \
+    sched freq idle am wm gfx view binder_driver
+
+adb pull /data/misc/perfetto-traces/trace.perfetto-trace
