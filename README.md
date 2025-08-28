@@ -18,6 +18,7 @@ AndroidRuntime(xxxx): Shutting down VM
 
 dump内存
 adb shell am dumpheap com.lizhi.pplive
+adb shell am dumpheap com.lizhi.pplive /data/local/tmp/1.hprof  #hprof尾缀才能读
 
 https://cs.android.com/android/platform/superproject/+/android-8.1.0_r9:frameworks/base/core/java/android/view/View.java
 
